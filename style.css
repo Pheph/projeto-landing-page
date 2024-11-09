@@ -69,13 +69,14 @@
 
 #div-cards{
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-columns: auto 1fr auto;
     justify-items: center;
+    gap: 20px;
     margin-bottom: 50px;
 }
 
 .card{
-    margin-left: 50px;
+    margin-left: 0;
 }
 
 #seta-esquerda{
@@ -87,8 +88,9 @@
 }
 
 .seta{
-    margin-top: 10%;
+    margin-top: 0;
     cursor: pointer;
+    height: 40px:
 }
 
 .seta:hover{
